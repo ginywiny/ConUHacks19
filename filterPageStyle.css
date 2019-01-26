@@ -1,0 +1,44 @@
+/********************
+	DEFAULTS
+*********************/
+html{
+	font-family: Arial;
+	font-size: 1em;
+	color: black;
+}
+*, *::before, *:after{
+	box-sizing: inherit;
+	padding: 1px;
+	margin: 0;
+}
+main{
+	margin:1rem 1rem;
+	width: 90%;
+	/*max-width: 1000px;*/
+}
+
+/********************
+	INPUT
+*********************/
+select, option, input, label, button{
+	padding: 0.2rem, 1rem;
+	font-size: 1.2rem;
+	color: inherit;
+}
+input[type=submit] {
+	background-color: grey;
+}
+
+
+.form-box{
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+}
+.flex-box{	
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
